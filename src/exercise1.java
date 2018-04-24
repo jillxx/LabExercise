@@ -7,5 +7,6 @@ public class exercise1 {
          System.out.println("Enter some text:");
          userInput = reader.nextLine();
          System.out.println(userInput); 
+         reader.close();
     }     
 }
